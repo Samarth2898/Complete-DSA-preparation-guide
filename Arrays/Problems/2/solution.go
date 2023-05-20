@@ -16,7 +16,7 @@ func findMinMax(arr []int) minMaxStruct {
 	n := len(arr)
 	if n == 1 {
 		minMax.min = arr[0]
-		minMax.max = arr[1]
+		minMax.max = arr[0]
 		return minMax
 	}
 
